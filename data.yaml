@@ -1,0 +1,12 @@
+# YAML file configuration for YOLOv8 training
+ 
+# Path to images and labels
+train: C:\Users\Nishita Gopi\Documents\capstone\project1\images\train      # Directory for training images
+val: C:\Users\Nishita Gopi\Documents\capstone\project1\images\val        # Directory for validation images
+test: C:\Users\Nishita Gopi\Documents\capstone\project1\images\test       # Optional: Directory for test images (if applicable)
+
+# Number of classes (in this case 1: 'whiteboard')
+nc: 2
+
+# Class names
+names: ['whiteboard' , 'smartboard']      # The class names in the dataset. This should match the class for whiteboard.
